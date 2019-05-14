@@ -30,7 +30,7 @@ def text_phantom(text, board_size):
 
     return (255 - np.asarray(canvas)) // 255
 
-init_board = np.flipud(np.rot90(text_phantom('PIWO', board_size)[..., 0]))
+init_board = np.flipud(np.rot90(text_phantom('KASIA', board_size)[..., 0]))
 
 
 def step(board): 
